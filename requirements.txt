@@ -1,0 +1,33 @@
+# Core dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# Document processing
+PyPDF2>=3.0.1
+python-docx>=0.8.11
+markdown>=3.5.1
+
+# Vector storage and embeddings
+chromadb>=0.4.15
+sentence-transformers>=2.2.2
+
+# Hugging Face transformers for text generation and code documentation
+transformers>=4.21.0
+torch>=1.11.0
+accelerate>=0.20.0
+
+# Code analysis and documentation
+ast-tools>=0.1.0
+python-ast>=0.1.0
+
+# Text processing
+tiktoken>=0.5.1
+
+# Utilities
+requests>=2.31.0
+numpy>=1.24.3
+pandas>=2.1.1
+
+# Optional: For better performance
+# datasets>=2.0.0
+# tokenizers>=0.13.0
